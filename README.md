@@ -1,1 +1,1 @@
-# CPS630
+A compilation of labs that I had to work on for my Web Applications class. There are currently three labs, first one is a regular website that shows my interest, the second lab is a weather application and the last lab is a todo list using AngularJS.

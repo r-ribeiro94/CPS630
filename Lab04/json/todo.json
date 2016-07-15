@@ -1,0 +1,24 @@
+{
+	"todo" : [
+		{
+			"task": "Complete this Lab",
+			"complete": false,
+            "description": "Complete this lab by Saturday, March 26, 2016 @ 11:00PM"
+		},
+        {
+            "task": "Complete Assignments",
+            "complete": false,
+            "description": "Complete all assignments before due date."
+        },
+        {
+        	"task": "Wash the car",
+        	"complete": false,
+        	"description": "Make sure to buy equiptment to clean car."
+        },
+        {
+        	"task": "Read a book",
+        	"complete": false,
+        	"description": "Ready any kind of book."
+        }
+	]
+}
