@@ -1,0 +1,20 @@
+//  /views
+//      .head.jade
+
+//  This view handles all the links for stylesheet and the title of the page.
+//  Included in the links are a favicon, bootstrap, fonts, and custom style sheets.
+
+head
+    title #{title}
+    //FavIcon
+    link(rel="icon", href="https://dl.dropbox.com/s/ci2yohnstf0j63i/favicon.ico?dl=0")
+    // Bootstrap core CSS
+    link(href='/bootstrap-3.3.2/dist/css/bootstrap.min.css', rel='stylesheet')
+    // Custom styles for this template
+    link(href="/stylesheets/style.css", rel="stylesheet")
+    link(href="/stylesheets/about-style.css", rel="stylesheet")
+    // FontAwesome
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", rel="stylesheet", type="text/css")
+    // Google Fonts
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700", rel="stylesheet", type="text/css")
+    link(href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic", rel="stylesheet", type="text/css")

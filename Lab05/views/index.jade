@@ -1,0 +1,11 @@
+//    /views
+//        .index.jade
+        
+//    This is the index page (otherwise known as home page), which is the first page directed when you browse your localhost.
+//    It extended by layout.jade, and appends information to the blocks from that jade file.
+//    The layout is header and navigation, banner, three articles and footer.
+
+extends parent
+
+block information
+    include ./article.jade

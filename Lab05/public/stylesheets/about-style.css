@@ -1,0 +1,66 @@
+/*
+    The styles for the about me page.
+*/
+
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto;
+}
+
+.margin {
+    margin-top: 7.5%;
+}
+
+img.img-circle {
+    border-radius: 50%;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.header-font {
+    color: white;
+}
+
+.bg-header {
+    background-color: #18bc9c;
+}
+
+.bg-contact {
+    background-color: #061c30;
+}
+
+.bg-footer {
+    background-color: white;
+}
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#space-heading {
+    margin-top: 5%; 
+}
+
+.col-insta {
+    margin-right: 5%;
+}
+
+.fontsize-instagram {
+    font-size: 100px;
+    text-decoration: none;
+    color: brown;
+}
+
+.fontsize-facebook {
+    font-size: 100px;
+    text-decoration: none;
+}

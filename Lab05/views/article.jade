@@ -1,0 +1,54 @@
+//  /views
+//      .article.jade
+        
+//  This view is included in the index.jade view, and handles the article and banner of the home page section.
+
+header
+    div.container
+        div.row
+            div.col-lg-12
+                img(class="img-responsive", id="img-smaller", src="http://www.iconsfind.com/wp-content/uploads/2015/10/20151012_561baed03a54e.png")
+                div.intro-text
+                    span.name CPS630 - LAB05
+                    hr.star-light
+                    span.skills Student - Web Designer - Programmer
+                // /.end of intro-text class
+    // /.end of container class
+                            
+                
+.container.marketing
+  // START THE FEATURETTES
+  hr.featurette-divider
+  .row.featurette
+    .col-md-7
+      h2.featurette-heading
+        | Create beautiful websites with bootstrap. 
+        span.text-muted It&apos;ll blow your mind.
+      p.lead
+        | "Bootstrap is a free and open-source collection of tools for creating websites and web applications." (Wikipedia, 2016) This tool has made it much easier for users to create a stunningly dynamic website or web application.
+    .col-md-5
+      img.featurette-image.img-responsive.center-block(src="http://code.makery.ch/assets/library/html-css/part7/bootstrap-logo.png", alt='Generic placeholder image', width="300", height="300")
+  hr.featurette-divider
+  .row.featurette
+    .col-md-5
+      img.featurette-image.img-responsive.center-block(src='http://www.unixstickers.com/image/cache/data/stickers/linuxmint/mint.sh-600x600.png', alt='Generic placeholder image', width="300", height="300")
+    .col-md-7
+      h2.featurette-heading
+        | Linux Mint a "modern, elegant and comfortable operating system which is both powerful and easy to use."(Linux Mint, 2014) &nbsp;
+        a.text-muted(href="https://www.linuxmint.com/" id="linux-a-tag") See for yourself.
+      p.lead
+        | Linux Mint is a Linux operating system which is based off of Ubuntu and Debian. It was first oficially released on August 27, 2006. This Linux operating system is quite unusual for the inclusion of proprietary software, such as plug-ins and codecs that provide Adobe Flash, MP3, and DVD playback. This is strange because normally the Linux model is to support free and open-source software. Overall, it is a very elegant and powerful operating system to use, definitely recommened when looking for Linux based operating system's.
+  hr.featurette-divider
+  .row.featurette
+    .col-md-7
+      h2.featurette-heading
+        | Add functionality to your website with NodeJS. 
+      p.lead
+        | "Node.js is an open-source cross-platform runtime environment for developing server-side web applications." (Wikipedia, 2016) It's strcuture is of a event-drivent architecture which is capabale of asynchornous I/O. This allows for optimized output and scalability in Web applications. This website is currently running Node.js for all it's server-side requests. For more information: #[a(href="https://nodejs.org/en/" id="nodejs-a-tag") #[img(src="http://www.nodeclipse.org/img/logos/Node-JS-logo.png", alt="nodejs", width="40", height ="40")] ]
+    .col-md-5
+      img.featurette-image.img-responsive.center-block(src='http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/07/1436439824nodejs-logo.png', width="300", height="300")
+  hr.featurette-divider
+  
+  // /END THE FEATURETTES
+// /.end of container class
+        

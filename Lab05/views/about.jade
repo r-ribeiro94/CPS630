@@ -1,0 +1,36 @@
+//  /.views
+//      .about.jade
+        
+//  This is the about me page, which extends the parent layout.
+//  It is layed out as such header and nav, banner, content and footer.
+
+extends parent
+
+block information
+    div(class="container-fluid bg-header text-center")
+        h3.margin.header-font Who Am I?
+        img(src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/12314119_10208062421176002_2629887420612931816_n.jpg?oh=4151a82b735258452469ddaa4eb44171&oe=57E96AB0", class="img-circle", alt="image", width="304", height="236")
+        h3.header-font My name is Rogerio Ribeiro, and I am a fourth year student at Ryerson University.
+    
+    div(class="container-fluid text-center")
+        h3 A few thing about me ...
+        div.row
+            div.col-sm-4
+                p I love to play and watch soccer on my free time and my favourite team is a brazillian team called Atletico Mineiro. 
+                img.img-responsive.center-block(src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Clube_Atl%C3%A9tico_Mineiro_crest.svg/200px-Clube_Atl%C3%A9tico_Mineiro_crest.svg.png", alt="image")
+            div.col-sm-4
+                p I also enjoy playing video games whenever I get a chance, I primarly play on my PS4 and once in a while on my desktop computer. 
+                img.img-responsive.center-block(src="https://psmedia.playstation.com/is/image/psmedia/console-two-column-01-ps4-eu-27May14?$TwoColumn_Image$", alt="image")
+            div.col-sm-4
+                p Lastly, I like to temper with computers, for example building or troubleshooting problems, and of course programming.
+                img.img-responsive.center-block(src="http://25.media.tumblr.com/241d965f365d57f1e6ec9c02d81f6114/tumblr_mwqvgxJi8T1sdftgwo1_400.png", alt="image")
+                
+    div.container-fluid.bg-contact.text-center
+        h3.header-font Where To Find Me?
+        div.row#space-heading
+            a.col-insta.text-center.fontsize-instagram(href="https://www.instagram.com/r_squared94/")
+                i.fa.fa-instagram
+            a.text-center.fontsize-facebook(href="https://www.facebook.com/rogerio.ribeiro.180")
+                i.fa.fa-facebook
+
+        

@@ -1,0 +1,30 @@
+//    /views
+//        .navigation
+        
+//    This view is for the fixed top naviagtion of the website.
+
+nav.navbar.navbar-default.navbar-fixed-top
+  .container
+  
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header.page-scroll
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(id="a-tag") CP630 LAB05
+      
+    // Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.hidden
+          a(href='#page-top')
+        li.page-scroll
+          a(href="#home" onclick='return goToHome()' id="a-tag") #[i.fa.fa-home] Home
+        li.page-scroll
+          a(href="#about" onclick='return goToAbout()' id="a-tag") #[i.fa.fa-user] About Me
+          
+    // /.end of navbar-collapse class
+  // /.end of container class
+script.

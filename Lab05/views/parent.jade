@@ -1,0 +1,30 @@
+//    /views
+//        .parent.jade
+        
+//    This is the parent page (or layout page), it's a template that uses other jade files to create the website.
+
+doctype
+html
+    include ./head.jade
+    body.index
+        include ./navigation.jade
+        a(name="top")
+        block information
+        block scripts
+            // Bootstrap and JQuery Links
+            script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+            script(src='/bootstrap-3.3.2/dist/js/bootstrap.min.js')
+            script(src='/bootstrap-3.3.2/docs/assets/js/vendor/holder.js')
+            script.    
+                function goToAbout() {
+                    window.location.href ='/about'
+                }
+
+                function goToHome() {
+                    window.location.href='/'
+                }
+        footer
+            div.container-fluid.bg-footer
+                include ./footer.jade
+
+      
